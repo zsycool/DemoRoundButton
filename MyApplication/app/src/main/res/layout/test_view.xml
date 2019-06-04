@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--round button-->
+    <com.example.demo.test.view.DemoRoundButton
+        android:id="@+id/round"
+        style="@style/RoundButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_round"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical|center_horizontal"
+        app:animationDuration="500"
+        app:animationPadding="5dp"
+        app:animationTint="@color/colorBlue"
+        app:strokeWidth="2dp" />
+
+</RelativeLayout>

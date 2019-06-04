@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--HtcDemoButton-->
+    <declare-styleable name="DemoButtonStyle">
+        <attr name="animationPadding" format="reference|dimension" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="animationTint" format="color" />
+        <attr name="backgroundNormal" format="reference" />
+        <attr name="backgroundPressed" format="reference" />
+        <attr name="textColorNormal" format="color" />
+        <attr name="textColorPressed" format="color" />
+        <attr name="strokeWidth" format="reference|dimension" />
+    </declare-styleable>
+</resources>
